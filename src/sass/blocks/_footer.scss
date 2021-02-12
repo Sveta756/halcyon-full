@@ -1,0 +1,19 @@
+.footer {
+    min-height: 121px;
+    background-color: #242830;
+    padding: 56px 0 51px 0;
+    &__links {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__link {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #a1a9b0;
+        &:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}

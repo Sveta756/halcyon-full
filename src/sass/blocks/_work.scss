@@ -1,0 +1,29 @@
+.work {
+    padding: 102px 0 121px 0;
+    &__img {
+        width: 151px;
+        height: 151px;
+        background-color: #3dc9b3;
+        border-radius: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__title {
+        font-size: 18px;
+        line-height: 20px;
+        font-weight: 500;
+        color: #353535;
+        text-align: center;
+        margin-top: 48px;
+    }
+    &__text {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+        color: #8c9398;
+        text-align: center;
+        margin-bottom: 0;
+    }
+}

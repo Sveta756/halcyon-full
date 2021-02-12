@@ -1,0 +1,32 @@
+@import 'libs/bootstrap-grid.min';
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/slick';
+
+* {
+    font-family: 'GothamRounded', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@import 'base/variables';
+
+
+@import 'blocks/main';
+@import 'blocks/header';
+@import 'blocks/portfolio';
+@import 'blocks/title';
+@import 'blocks/_line';
+@import 'blocks/text';
+@import 'blocks/work';
+@import 'blocks/responsive';
+@import 'blocks/slider';
+@import 'blocks/_problems';
+@import 'blocks/carousel';
+@import 'blocks/passion';
+@import 'blocks/team';
+@import 'blocks/send';
+@import 'blocks/contacts';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'base/_media';

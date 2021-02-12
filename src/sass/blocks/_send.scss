@@ -1,0 +1,66 @@
+.send {
+    min-height: 454px;
+    background: url('../img/keyboard.jpg') center (center/cover) no-repeat;
+    padding: 123px 0 157px 0;
+    position: relative;
+    &__block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    i {
+        color: #fff;
+    }
+    &__text {
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 500;
+        letter-spacing: 0.15em;
+        color: #ffffff;
+        margin-top: 24px;
+        margin-bottom: 46px;
+    }
+    &__inp {
+        width: 353px;
+        min-height: 67px;
+        border: 1px solid #ffffff;
+        background-color: transparent;
+        color: #fff;
+        padding: 10px;
+        font-size: 15px;
+    }
+    &__btn {
+        width: 99px;
+        height: 67px;
+        background-color: #3dc9b3;
+        border: none;
+        outline: none;
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 500;
+        letter-spacing: 0.15em;
+        color: #ffffff;
+    }
+    &__link {
+        position: absolute;
+        bottom: -25px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+        width: 50px;
+        height: 50px;
+        background-color: rgba(61,201,179, .8);
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none !important;
+        i {
+            font-size: 17px;
+            margin-bottom: 3px;
+        }
+    }
+    
+    
+}

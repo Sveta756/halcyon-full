@@ -1,0 +1,12 @@
+.responsive {
+    min-height: 701px;
+    background: url('../img/phone.png') center (center/cover) no-repeat;
+    &__block  {
+        background-color: #fff;
+        padding: 80px 100px 8px 80px;
+        width: 50%;
+        height: 701px;
+        float: right;
+    }
+
+}

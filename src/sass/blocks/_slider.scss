@@ -1,0 +1,122 @@
+.slick-dots {
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+    list-style: none; // убираем черные маркеры
+    margin-top: 63px;
+}   
+
+.slick-dots button {
+    border: 2px solid #c9cbca; // без рамки
+    border-radius: 100%; // радиус закругления
+    width: 11px;
+    height: 11px;
+    background: #fff;
+    margin-right: 11px; // отступы между точками
+    outline: none; // убираем обводку
+    font-size: 0; //убрать цифры
+    
+}   
+
+.slick-dots li[class="slick-active"] button {
+    background: #000;
+}
+
+.slider {
+    &__slide {
+        width: 387px;
+        padding: 28px 14px 10px;
+    }
+    &__wrapper {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: space-between;   
+    }
+    &__link-one, &__link-two, &__link-three {
+        display: block;
+        background:  url('../img/creative.jpg') center (center/cover) no-repeat;
+        width: 100%;
+        height: 203px;
+        text-decoration: none !important;
+        &:hover .slider__img {
+            text-decoration: none;
+            display: block;
+
+        }
+    }
+    &__link-two {
+        background:  url('../img/cofee.jpg') center (center/cover) no-repeat;
+    }
+    &__link-three {
+        background:  url('../img/dog.jpg') center (center/cover) no-repeat;
+    }
+    &__img {
+        text-align: center;
+        padding-top: 74px;
+        display: none;
+    }
+    &__link-img {
+        margin: 0 auto;
+    }
+    &__link-text {
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 500;
+        color: #ffffff;
+        margin-top: 17px;
+    }
+    &__title {
+        text-transform: uppercase;
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 600;
+        letter-spacing: 0.15em;
+        color: #353535;
+        margin-top: 43px;
+        text-align: center;
+    }
+    &__subtitle {
+        text-align: center;
+        font-weight: 500;
+    }
+    &__text {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+        color: #8c9398;
+        text-align: center;
+        
+    }
+
+    &__image {
+        display: block;
+        margin: 0 auto;
+    }
+    &__icons {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    &__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background-color: #242830;
+        border-radius: 100%;
+        margin-right: 10px;
+        &:last-child {
+            margin-right: 0;
+        }
+        &:hover {
+            background-color: #3dc9b3;
+            text-decoration: none;
+        }
+        i {
+            color: #fff;
+        }
+    }
+}
