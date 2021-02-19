@@ -58,17 +58,12 @@ $(document).ready(function(){
         
     });
 
-    $("a[href^='#up']").click(function(){
+    $("a[href^='#up'], a[href^='#down'], .header__link").click(function(){
         var _href = $(this).attr("href");
         $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
         return false;
     });
 
-    $("a[href^='#down']").click(function(){
-        var _href = $(this).attr("href");
-        $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
-        return false;
-    });
 
     $('.main__button, .passion__btn').click(function() {
         Swal.fire(
