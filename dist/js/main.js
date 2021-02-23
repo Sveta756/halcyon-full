@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.icon').click(function() {
+    $('.icon').on('click',function() {
         $('.icon').toggleClass('active');
         $('.header__nav').toggleClass('is-open');
     });
